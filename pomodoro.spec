@@ -35,11 +35,10 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['/Users/ibrahimr804/Downloads/pomodoro_icon.png'],
 )
 app = BUNDLE(
     exe,
     name='pomodoro.app',
-    icon='/Users/ibrahimr804/Downloads/pomodoro_icon.png',
+    icon=None,
     bundle_identifier=None,
 )
